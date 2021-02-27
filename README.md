@@ -10,13 +10,13 @@ Added Global hotkey support via MIDI input.
 
 You can enable the MIDI hotkey support by adding `&midi` to the URL. For different key layouts, you can pass 1 or 2 or 3 (etc) as a value to the `&midi` parameter. 
 
-For reference at this time, available sets are:
+The example MIDI hotkeys are configured to control a fictional conferencing app, with layout being:
 
 ### midi=1
 
 | MIDI message 	| Example Function
 |--------------	|----------	
-| Note G3 	| Toggle Chat	
+| Note G3 	    | Toggle Chat	
 | Note A3       | Toggle Mute        	
 | Note B3       | Toggle Video Output      	
 | Note C4       | Toggle Screen Share      	
@@ -31,7 +31,7 @@ For reference at this time, available sets are:
 
 | MIDI message 	| Example Function
 |--------------	|----------	
-| Note G1 	| Toggle Chat	
+| Note G1 	    | Toggle Chat	
 | Note A1       | Toggle Mute        	
 | Note B1       | Toggle Video Output      	
 | Note C2       | Toggle Screen Share      	
