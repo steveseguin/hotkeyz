@@ -1,2 +1,2 @@
 # hotkeyz
-Generic hotkey boilerplate for websites
+Generic hotkey boilerplate for websites; streamDeck friendly
