@@ -2,7 +2,7 @@
 
 streamDeck friendly
 
-Included are different methods of implementing hotkeys support into yourself, with sample functionality setup to go.
+Included are different methods of implementing hotkeys support into yourself, with sample functionality for a conferencing-centric website.
 
 ## Global Hotkey Support via MIDI controllers 🎹
 
@@ -73,5 +73,5 @@ In this case, for hotkeying remote guests as a director:
 | Value 4        | Hangup the guest
 | Value 5        | Toggle Solo Chat with this guest    
 
-All the above hotkey mappings are purely experimental at this time and will change based on user feedback. These mappings should allow a user to use a StreamDeck with OBS.Ninja.
+All the above hotkey mappings are purely experimental at this time and will change based on user feedback. These mappings should allow a user to use a StreamDeck with a website.
 
