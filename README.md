@@ -6,10 +6,11 @@ Included are different methods of implementing hotkeys support into yourself, wi
 
 ## Global Hotkey Support via MIDI controllers 🎹
 
-Requires a MIDI virtual controller.
+Requires a MIDI virtual controller and the Streamdeck Midi plugin
 
-For PC: http://www.tobias-erichsen.de/software/loopmidi.html
-For Mac:
+For PC, you might want to install: http://www.tobias-erichsen.de/software/loopmidi.html
+
+![image](https://user-images.githubusercontent.com/2575698/109399566-a08e0900-7911-11eb-9244-c6df67ae3636.png)
 
 For different key layouts, you can set  1 or 2 or 3 or 4 to the midi session variable.
 
