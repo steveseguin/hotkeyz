@@ -6,7 +6,7 @@ Included are different methods of implementing hotkeys support into yourself, wi
 
 ## Global Hotkey Support via MIDI controllers 🎹
 
-Added Global hotkey support via MIDI input. This is an experimental first draft of the hotkey specification and will see continued development and tweaking.
+Added Global hotkey support via MIDI input. 
 
 You can enable the MIDI hotkey support by adding `&midi` to the URL. For different key layouts, you can pass 1 or 2 or 3 (etc) as a value to the `&midi` parameter. 
 
@@ -14,7 +14,7 @@ For reference at this time, available sets are:
 
 ### midi=1
 
-| MIDI message 	| Function
+| MIDI message 	| Example Function
 |--------------	|----------	
 | Note G3 	| Toggle Chat	
 | Note A3       | Toggle Mute        	
@@ -29,7 +29,7 @@ For reference at this time, available sets are:
 
 ### midi=2
 
-| MIDI message 	| Function
+| MIDI message 	| Example Function
 |--------------	|----------	
 | Note G1 	| Toggle Chat	
 | Note A1       | Toggle Mute        	
@@ -43,7 +43,7 @@ For reference at this time, available sets are:
 
 ### midi=3
 
-| MIDI message 	| Function
+| MIDI message 	| Example Function
 |--------------	|----------	
 | Note C1 + Velocity 0 	| Toggle Chat	
 | Note C1 + Velocity 1  | Toggle Mute        	
@@ -57,14 +57,14 @@ For reference at this time, available sets are:
 
 ### midi=4, control change-based
 
-| MIDI message   	| Function
+| MIDI message   	| Example Function
 |---------------------	|----------	
 | Command = 110	        | with values accepted from 0 to 8 for local toggle options.	
 | Command = 110+N       | where N is the guest’s order in the control room.        	
 
 In this case, for hotkeying remote guests as a director:
 
-| MIDI message   | Function
+| MIDI message   | Example Function
 |--------------- |----------	
 | Value 0        | Opens the Transfer Popup	
 | Value 1        | Add/remove from scene        	
