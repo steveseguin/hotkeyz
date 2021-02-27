@@ -1,7 +1,6 @@
 # hotkeyz
 Generic hotkey boilerplate for websites; streamDeck friendly
 
-![](https://imgur.com/oTfrAbd.png)
 
 ## Global Hotkey Support via MIDI controllers 🎹
 
