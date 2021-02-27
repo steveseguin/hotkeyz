@@ -1,3 +1,7 @@
+var session = {};
+session.midiHotkeys = 1; // change accordingly
+
+
 var script = document.createElement('script');
 	script.onload = function() {
 		WebMidi.enable(function(err) { // hotkeys
