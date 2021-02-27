@@ -24,11 +24,11 @@ var script = document.createElement('script');
 						console.log(e);
 						var note = e.note.name + e.note.octave;
 						if (note == "G3") {  // open and close the chat window
-							//toggleChat();
+						//	toggleChat();
 						} else if (note == "A3") { // mute your audio output
 						//	toggleMute();
 						} else if (note == "B3") { // mute your video output
-							//toggleVideoMute();
+						//	toggleVideoMute();
 						} else if (note == "C4") { // enable / disable screenshare
 						//	toggleScreenShare();
 						} else if (note == "D4") { // completely kill your connection/session
@@ -48,7 +48,7 @@ var script = document.createElement('script');
 						console.log(e);
 						var note = e.note.name + e.note.octave;
 						if (note == "G1") {  // open and close the chat window
-					//		toggleChat();
+						//	toggleChat();
 						} else if (note == "A1") { // mute your audio output
 						//	toggleMute();
 						} else if (note == "B1") { // mute your video output
@@ -74,15 +74,15 @@ var script = document.createElement('script');
 						var velocity = e.velocity;
 						if (note == "C1"){
 							if (velocity == "0") {  // open and close the chat window
-					//			toggleChat();
+						//		toggleChat();
 							} else if (note == "1") { // mute your audio output
 						//		toggleMute();
 							} else if (note == "2") { // mute your video output
-					//			toggleVideoMute();
+						//		toggleVideoMute();
 							} else if (note == "3") { // enable / disable screenshare
-					//			toggleScreenShare();
+						//		toggleScreenShare();
 							} else if (note == "4") { // completely kill your connection/session
-					//			hangup();
+						//		hangup();
 							} else if (note == "5") { // raise your hand; director sees this
 						//		raisehand();
 							} else if (note == "6") { // start/stop local recording
@@ -111,7 +111,7 @@ var script = document.createElement('script');
 						
 						if (command == 110){  
 							if (value == 0) {  // open and close the chat window
-							//	toggleChat();
+						//		toggleChat();
 							} else if (value == 1) { // mute your audio output
 						//		toggleMute();
 							} else if (value == 2) { // mute your video output
@@ -132,35 +132,35 @@ var script = document.createElement('script');
 						} else if (command > 110){ // 111 and up are Free game to use. These are not 'reserved' midi keys. 111=guest1, 112 = guest2, etc
 							var guestslot = command-111;
 							if (value == 0) { 
-								var elements = document.querySelectorAll('[data-action-type="forward"][data--u-u-i-d]');
-								if (elements[guestslot]) {
+						//		var elements = document.querySelectorAll('[data-action-type="forward"][data--u-u-i-d]');
+						//		if (elements[guestslot]) {
 						//			directMigrate(elements[guestslot], true);
-								}
+						//		}
 							} else if (value == 1) { 
-								var elements = document.querySelectorAll('[data-action-type="addToScene"][data--u-u-i-d]');
-								if (elements[guestslot]) {
-							//		directEnable(elements[guestslot], true);
-								}
+						//		var elements = document.querySelectorAll('[data-action-type="addToScene"][data--u-u-i-d]');
+						//		if (elements[guestslot]) {
+						//			directEnable(elements[guestslot], true);
+						//		}
 							} else if (value == 2) { 
-								var elements = document.querySelectorAll('[data-action-type="mute-scene"][data--u-u-i-d]');
-								if (elements[guestslot]) {
-							//		directMute(elements[guestslot], true);
-								}
-							} else if (value == 3) { 
-								var elements = document.querySelectorAll('[data-action-type="mute-guest"][data--u-u-i-d]');
-								if (elements[guestslot]) {
+						//		var elements = document.querySelectorAll('[data-action-type="mute-scene"][data--u-u-i-d]');
+						//		if (elements[guestslot]) {
 						//			directMute(elements[guestslot], true);
-								}
+						//		}
+							} else if (value == 3) { 
+						//		var elements = document.querySelectorAll('[data-action-type="mute-guest"][data--u-u-i-d]');
+						//		if (elements[guestslot]) {
+						//			directMute(elements[guestslot], true);
+						//		}
 							}  else if (value == 4) { 
-								var elements = document.querySelectorAll('[data-action-type="hangup"][data--u-u-i-d]');
-								if (elements[guestslot]) {
-							//		directHangup(elements[guestslot], true);
-								}
+						//		var elements = document.querySelectorAll('[data-action-type="hangup"][data--u-u-i-d]');
+						//		if (elements[guestslot]) {
+						//			directHangup(elements[guestslot], true);
+						//		}
 							} else if (value == 5) { 
-								var elements = document.querySelectorAll('[data-action-type="solo-chat"][data--u-u-i-d]');
-								if (elements[guestslot]) {
+						//		var elements = document.querySelectorAll('[data-action-type="solo-chat"][data--u-u-i-d]');
+						//		if (elements[guestslot]) {
 						//			session.toggleSoloChat(elements[guestslot].dataset.UUID);
-								}
+						//		}
 							}
 							
 						}
