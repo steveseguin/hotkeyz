@@ -76,3 +76,9 @@ In this case, for hotkeying remote guests as a director:
 | Value 3        | Mute guest everyone    
 | Value 4        | Hangup the guest
 | Value 5        | Toggle Solo Chat with this guest    
+
+
+## Bitfocus Companion Hotkey Support
+
+** COMING SOON ** 
+https://github.com/bitfocus/companion
