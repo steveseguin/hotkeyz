@@ -72,6 +72,3 @@ In this case, for hotkeying remote guests as a director:
 | Value 3        | Mute guest everyone    
 | Value 4        | Hangup the guest
 | Value 5        | Toggle Solo Chat with this guest    
-
-All the above hotkey mappings are purely experimental at this time and will change based on user feedback. These mappings should allow a user to use a StreamDeck with a website.
-
