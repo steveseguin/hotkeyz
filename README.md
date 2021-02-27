@@ -6,9 +6,12 @@ Included are different methods of implementing hotkeys support into yourself, wi
 
 ## Global Hotkey Support via MIDI controllers 🎹
 
-Added Global hotkey support via MIDI input. 
+Requires a MIDI virtual controller.
 
-You can enable the MIDI hotkey support by adding `&midi` to the URL. For different key layouts, you can pass 1 or 2 or 3 (etc) as a value to the `&midi` parameter. 
+For PC: http://www.tobias-erichsen.de/software/loopmidi.html
+For Mac:
+
+For different key layouts, you can set  1 or 2 or 3 or 4 to the midi session variable.
 
 The example MIDI hotkeys are configured to control a fictional conferencing app, with layout being:
 
