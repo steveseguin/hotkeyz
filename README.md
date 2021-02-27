@@ -1,6 +1,8 @@
-# hotkeyz
-Generic hotkey boilerplate for websites; streamDeck friendly
+# hotkeyz - Generic hotkey boilerplate for websites
 
+streamDeck friendly
+
+Included are different methods of implementing hotkeys support into yourself, with sample functionality setup to go.
 
 ## Global Hotkey Support via MIDI controllers 🎹
 
