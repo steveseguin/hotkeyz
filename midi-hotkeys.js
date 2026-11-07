@@ -171,4 +171,3 @@ var script = document.createElement('script');
 	};
 	script.src = "./thirdparty/webmidi.js"; // dynamically load this only if its needed. Keeps loading time down.
 	document.head.appendChild(script);
-}

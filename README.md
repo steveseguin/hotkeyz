@@ -82,3 +82,9 @@ In this case, for hotkeying remote guests as a director:
 
 ** COMING SOON ** 
 https://github.com/bitfocus/companion
+
+## Tests
+
+Run `node --test` with Node.js 18 or later. The tests check that the browser script
+parses, loads WebMidi, and attaches listeners for each layout using mocked MIDI
+inputs. No MIDI hardware or dependencies are needed.
